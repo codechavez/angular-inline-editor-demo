@@ -36,6 +36,14 @@ export class AppComponent implements OnInit {
     distags:string[]=["angular","angular-cli","vscode"];
     emptytags:string[];
 
+    defaultdatesample:Date = new Date('1/8/218');
+    disdatesample:Date = new Date();
+    emptydatesample:Date;
+
+    timeSample:Date = new Date();
+    distimeSample:Date=new Date();
+    emptytimeSample:Date;
+
     constructor() { }
 
     ngOnInit() { }  

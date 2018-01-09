@@ -9,7 +9,10 @@ import {
   TextAreaEditorModule, 
   RadioListEditorModule, 
   CheckBoxEditorModule,
-  TagsEditorModule } from "angular-inline-editors";
+  TagsEditorModule,
+  DateEditorModule,
+  TimeEditorModule
+ } from "angular-inline-editors";
 
 import { AppComponent } from './app.component';
 
@@ -23,7 +26,9 @@ import { AppComponent } from './app.component';
     CheckListEditorModule.forRoot(),
     RadioListEditorModule.forRoot(),
     CheckBoxEditorModule.forRoot(),
-    TagsEditorModule.forRoot()
+    TagsEditorModule.forRoot(),
+    DateEditorModule.forRoot(),
+    TimeEditorModule.forRoot()
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
