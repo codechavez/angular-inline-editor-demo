@@ -11,7 +11,8 @@ import {
   CheckBoxEditorModule,
   TagsEditorModule,
   DateEditorModule,
-  TimeEditorModule
+  TimeEditorModule,
+  TypeAheadEditorModule
  } from "angular-inline-editors";
 
 import { AppComponent } from './app.component';
@@ -28,7 +29,8 @@ import { AppComponent } from './app.component';
     CheckBoxEditorModule.forRoot(),
     TagsEditorModule.forRoot(),
     DateEditorModule.forRoot(),
-    TimeEditorModule.forRoot()
+    TimeEditorModule.forRoot(),
+    TypeAheadEditorModule.forRoot()
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
