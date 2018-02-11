@@ -12,7 +12,10 @@ import {
   TagsEditorModule,
   DateEditorModule,
   TimeEditorModule,
-  TypeAheadEditorModule
+  TypeAheadEditorModule,
+  DateTimeEditorModule,
+  NumberEditorModule
+
  } from "angular-inline-editors";
 
 import { AppComponent } from './app.component';
@@ -30,7 +33,10 @@ import { AppComponent } from './app.component';
     TagsEditorModule.forRoot(),
     DateEditorModule.forRoot(),
     TimeEditorModule.forRoot(),
-    TypeAheadEditorModule.forRoot()
+    TypeAheadEditorModule.forRoot(),
+    DateTimeEditorModule.forRoot(),
+    NumberEditorModule.forRoot()
+
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
