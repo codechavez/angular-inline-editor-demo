@@ -6,7 +6,6 @@
     "email": "codechavez@outlook.com"
   },
   "scripts": {
-    "postinstall": "typings install --global --save dt~core-js",
     "transpile": "tsc --rootDir src --outDir dist",
     "package": "webpack --progress",
     "distro": "npm run transpile && npm run package",
@@ -19,13 +18,14 @@
     "@angular/forms": "^5.1.2",
     "@angular/platform-browser": "^5.1.2",
     "@angular/platform-browser-dynamic": "^5.1.2",
-    "angular-inline-editors": "^1.0.0-beta.67",
+    "angular-inline-editors": "^1.0.1",
     "core-js": "^2.5.3",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.18"
   },
   "devDependencies": {
+    "@types/node": "^9.4.5",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.4.1",
     "copy-webpack-plugin": "^4.3.1",
